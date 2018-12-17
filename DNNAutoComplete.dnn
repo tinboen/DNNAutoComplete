@@ -1,0 +1,43 @@
+<dotnetnuke version="3.0" type="Module">
+  <folders>
+    <folder>
+      <name>DNN Auto Complete</name>
+      <friendlyname>DNN Auto Complete</friendlyname>
+      <foldername>DNNAutoComplete</foldername>
+      <modulename>DNN Auto Complete</modulename>
+      <description>Auto Complete in DNN using Web Services in aspx</description>
+      <version>01.00.00</version>
+      <businesscontrollerclass>
+      </businesscontrollerclass>
+      <modules>
+        <module>
+          <friendlyname>DNN Auto Complete</friendlyname>
+          <cachetime>0</cachetime>
+          <controls>
+            <control>
+              <title>DNN Auto Complete</title>
+              <src>DesktopModules/DNNAutoComplete/View.ascx</src>
+              <type>View</type>
+            </control>
+          </controls>
+        </module>
+      </modules>
+      <files>
+        <file>
+          <name>View.ascx</name>
+        </file>
+        <file>
+          <name>View.ascx.cs</name>
+        </file>
+        <file>
+          <path>Services</path>
+          <name>AutoComplete.aspx</name>
+        </file>
+        <file>
+          <path>Services</path>
+          <name>AutoComplete.aspx.cs</name>
+        </file>
+      </files>
+    </folder>
+  </folders>
+</dotnetnuke>
